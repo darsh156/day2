@@ -1,0 +1,46 @@
+print("=== Variables ===")
+name = "darshan"
+age = 21
+print(name)
+print(age)
+print()
+
+print("=== Data Types ===")
+x = 10
+y = 5.5
+z = "Hello"
+flag = True
+print(type(x))
+print(type(y))
+print(type(z))
+print(type(flag))
+print()
+
+print("=== Type Casting ===")
+a = "100"
+b = int(a)
+c = float(a)
+print(b)
+print(c)
+print()
+
+print("=== Operators ===")
+num1 = 10
+num2 = 3
+print(num1 + num2)
+print(num1 - num2)
+print(num1 * num2)
+print(num1 / num2)
+print(num1 % num2)
+print(num1 ** num2)
+print(num1 > num2)
+print(num1 == num2)
+print(num1 < num2)
+print(num1 > 5 and num2 < 5)
+print(num1 > 5 or num2 > 5)
+print(not(num1 > num2))
+print()
+print("=== Simple Addition Program ===")
+x = int(input("Enter first number: "))
+y = int(input("Enter second number: "))
+print("Sum is:", x + y)
